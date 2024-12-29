@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "io.github.takusan23.ultrahdrbluredit"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "io.github.takusan23.ultrahdrbluredit"
         minSdk = 34
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -49,7 +49,7 @@ android {
 
 dependencies {
     // GPU でぼかしたい
-    implementation("io.github.takusan23:akaricore:4.1.1")
+    implementation("io.github.takusan23:akaricore:5.0.0-alpha02")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
